@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Great+Vibes&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Unbounded:wght@200..900&display=swap');
+*{
+    font-family: "Unbounded", sans serif;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+html {
+    scroll-behavior: smooth; 
+  }
+header{
+    background-color: white;
+    nav{
+        margin-top: 30px;
+        margin-left: 200px;
+        margin-right: 200px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        h1{
+            a{
+                text-decoration: none;
+                font-family: Great vibes;
+                font-weight: 100;
+                font-size: 35pt;
+                color: black;
+            }
+        }
+        ul{
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            li{
+                margin-left: 20px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+        .line{
+        width: 1536px;
+        height: 1px;
+        background-color: #000000;
+    }
+}
+main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+section{
+    background-color: #492F1E;
+    width: 420px;
+    height: 420px;
+    border-radius: 40px;
+    padding: 40px 60px 40px 60px;
+}
+.first-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    input{
+        width: 370px;
+        height: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 50px;
+        font-size: 14pt;
+        background-color: white;    
+    }
+    textarea{
+        width: 370px;
+        height: 120px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 15px;
+        border-radius: 40px;
+        font-size: 14pt;
+        background-color: white;
+    }
+    button{
+        height: 60px;
+        width: 300px;
+        border-radius: 40px;
+        font-size: 14pt;
+        background-color: white;
+    }
+}
+.second-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    input{
+        width: 370px;
+        height: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 50px;
+        font-size: 14pt;
+        margin-bottom: 7px;
+        background-color: white;
+    }
+    .order-place{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        button{
+            height: 50px;
+            width: 150px;
+            border-radius: 40px;
+            font-size: 14pt;
+            background-color: white;
+            margin-left: 50px;
+        }
+        button:hover{
+            background-color: rgb(213, 213, 213);
+        }
+        p{
+            color: white;
+        }
+    }
+    .order-end{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        p{
+            background-color: white;
+            height: 50px;
+            width: 180px;
+            border-radius: 40px;
+            font-size: 12pt;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 30px;
+        }
+        button{
+            height: 50px;
+            width: 200px;
+            border-radius: 40px;
+            font-size: 14pt;
+            background-color: white;
+        }
+        button:hover{
+            background-color: rgb(213, 213, 213);
+        }
+    }
+}
+button{
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(213, 213, 213);
+}

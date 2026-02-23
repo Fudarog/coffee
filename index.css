@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Great+Vibes&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Unbounded:wght@200..900&display=swap');
+*{
+    font-family: "Unbounded", sans serif;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+html {
+    scroll-behavior: smooth; 
+  }
+header{
+    background-color: white;
+    nav{
+        margin-top: 30px;
+        margin-left: 200px;
+        margin-right: 200px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        h1{
+            font-family: Great vibes;
+            font-weight: 100;
+            font-size: 35pt;
+        }
+        ul{
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            li{
+                margin-left: 20px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+
+}
+.first-block{
+    background-image: url("img/coffee_back.jpg");
+    background-size: 100%;
+    color: white;
+    height: 750px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    flex-direction: column;
+    h3{
+        align-self: flex-start;
+        font-family: Great vibes;
+        font-weight: 100;
+        font-size: 242pt;
+    }
+    p{
+        margin-right: 200px;
+        text-align: right;
+        font-size: 15pt;
+    }
+}
+.second-block{
+    background-color: white;
+    margin-top: -127px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 150px;
+    margin-bottom: 200px;
+    p{
+        padding-top: 50px;
+        font-size: 15pt;
+        margin-right: 200px;
+        display: flex;
+        justify-content: end;
+    }
+}
+
+
+.gallery{
+    margin-left: 200px;
+    margin-right: 200px;
+    p{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-size: 15pt;
+    }
+    .images{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.contact{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    h4{
+        font-size: 20pt;
+        margin-bottom: 20px;
+    }
+    p{
+        margin-bottom: 10px;
+    }
+    img{
+        margin-bottom: 50px;
+    }
+}
+
+.order{
+    height: 750px;
+    color: white;
+    font-size: 28pt;
+    text-align: center;
+    background-color: #492F1E;
+    background-image: url("img/coffe_order.png");
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    button{
+        width: 500px;
+        height: 80px;
+        margin-top: 40px;
+        border-width: 3px;
+        border-radius: 50px;
+        border-color: #F1DAAE;
+        background-color: transparent;
+        a{
+            font-family: Great vibes;
+            color: white;
+            text-decoration: none;
+            font-size: 32pt;
+            display: flex;
+            justify-content: center;
+            align-items: center ;
+        }
+    }
+}
+
+footer{
+    position: relative;
+    opacity: 70%;
+    margin-left: 200px;
+    height: 370px;
+    h5{
+        padding-top: 50px;
+        margin-bottom: 30px;
+        font-family: Great vibes;
+        font-weight: 100;
+        font-size: 40pt;
+    }
+    .social{
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        img{
+            padding-right: 25px;
+        } 
+    }
+}

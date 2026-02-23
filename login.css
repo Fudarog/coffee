@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-family: Advent pro;
+}
+body{
+    height: 729px;
+    background: linear-gradient(to bottom left, #492F1E, #8A5E2D); 
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    z-index: 1;
+    background-color: #f4f4f4;
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+img{
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+input{
+    height: 40px;
+    width: 300px;
+    border-radius: 50px;
+    border-color: #031B37;
+    border-width: 3px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-size: 16pt;
+    font-weight: 600;
+    color: #031B37;
+}
+input::placeholder{
+    padding-top: 20px;
+    font-size: 16pt;
+    font-weight: 600;
+    color: #031B37;
+    opacity: 69%;
+}
+button{
+    cursor: pointer;
+    height: 50px;
+    width: 320px;
+    background-color: #F1DAAE;
+    color: #492F1E;
+    border-radius: 50px;
+    border-color: #031B37;
+    border-width: 3px;
+    font-size: 16pt;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+h3{
+    color: #031B37;
+    font-size: 46pt;
+    margin-bottom: 40px;
+}
+p{
+    color: #031B37;
+    font-size: 14pt;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: #492F1E;
+}
+.player{
+    pointer-events: none;
+    position: absolute;
+    z-index: 2;
+    opacity:    0%;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    position: absolute;
+    z-index: 2;
+    opacity: 0%;
+    display: flex;
+    justify-content: center;
+    pointer-events: none;
+}
